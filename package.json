@@ -4,7 +4,7 @@
     "private":true,
     "devDependencies": {
         "grunt": "~0.4.5",
-        "swagger-mock-api":"~1.6.0",
+        "swagger-mock-api":"bebeeteam/swagger-mock-api",
         "grunt-contrib-connect":"~1.0.2"
     }
 }
