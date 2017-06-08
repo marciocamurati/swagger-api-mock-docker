@@ -1,7 +1,7 @@
 # swagger api mock server
 
-Runs an api mock server, by parsing a swagger.yaml file.
-You can edit the swagger.yaml, reload the browser and everything should
+Runs an api mock server, by parsing a swagger.yml file.
+You can edit the swagger.yml, reload the browser and everything should
 be up-to-date.
 
 
@@ -15,10 +15,10 @@ be up-to-date.
         -p 8000:8000 \
         -t palo/swagger-api-mock
 
-## with your swagger.yaml
+## with your swagger.yml
 
-You need a folder where your `swagger.yaml` is placed.
-It has to be named `swagger.yaml`.
+You need a folder where your `swagger.yml` is placed.
+It has to be named `swagger.yml`.
 
     docker run -i \
         -p 8000:8000 \
@@ -29,7 +29,7 @@ If you need to specify a different name for YAML file you can mount a volume lik
 
     docker run -i \
         -p 8000:8000 \
-        -v /path/to/file.yaml:/data/swagger.yaml \
+        -v /path/to/file.yaml:/data/swagger.yml \
         -t palo/swagger-api-mock
 
 ## CORS support

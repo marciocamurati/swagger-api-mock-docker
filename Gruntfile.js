@@ -34,7 +34,7 @@ module.exports = function (grunt) {
                         middlewares.push(corsMiddleware);
 
                         middlewares.push(mockApi({
-                            swaggerFile: '/data/swagger.yaml',
+                            swaggerFile: '/data/swagger.yml',
                             watch: true
                         }));
 
